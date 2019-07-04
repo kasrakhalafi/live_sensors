@@ -38,7 +38,7 @@ def postJsonHandler():
     return 'JSON posted'
 
 @app.route('/_ref')
-def add_numbers2():
+def refs():
     global MY_JSON_CONTENTS
     print("Refs")
     #return jsonify(0);
